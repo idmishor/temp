@@ -25,16 +25,16 @@ docker build -t legit:latest .
 
 ## 3. Create Kubernetes Resources:
  * Create kubernetes Secret to store your GitHub token:
-    ```
-    **Bash**
-    kubectl create secret generic github-token-secret --from-literal=token=<YOUR_GITHUB_TOKEN>
-    ```
+ ```
+ **Bash**
+ kubectl create secret generic github-token-secret --from-literal=token=<YOUR_GITHUB_TOKEN>
+ ```
  * Deploy the helm chart
-    ```
-    **Bash**
-    cd ..
-    helm install [name] ./ -f ./values.yaml
-   ```
+ ```
+ **Bash**
+ cd ..
+ helm install [name] ./ -f ./values.yaml
+ ```
 ## 4. Verify Deployment
 ```
 **Bash**
@@ -42,7 +42,7 @@ kubectl get pods
 kubectl get services
 ```
 ## 5. Access the Web Interface:
-## Option 1 (LoadBalancer - if using Docker app for mac):
+### Option 1 (LoadBalancer - if using Docker app for mac):
  * Get LoadBalancer IP and Port:
     ```
     **Bash**
@@ -50,7 +50,7 @@ kubectl get services
    ```
  * Access the App: Open your web browser and go to: http://localhost:<PORT>/ (replace <PORT> with the actual port number).
 
-## Option 2 (NodePort):
+### Option 2 (NodePort):
     ```
     **Bash**
      Run kubectl get svc[name]-repo-creator to get the assigned NodePort.
