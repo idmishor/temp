@@ -6,7 +6,8 @@
 * **Kubernetes**: Enabled kubernetes in **Docker Desktop** or Kind installed and running.
 * **Kubectl**: The Kubernetes command-line tool (kubectl) installed.
 * **Python** and Pip: Python 3.x and pip installed on your system.
-* **GitHub Personal Access Token**: With the required repo and workflow scopes. [Create Github token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+* **GitHub Personal Access Token**: With the required repo and workflow scopes.
+  [Create Github token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 ## Project stracture:
 <img src="https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9" width="250" height="250">
