@@ -3,7 +3,7 @@
 
 * **Docker**: Installed and running on your comuter.
 * * **Helm**: Installed and working on your computer.
-* **Kubernetes**: Enabled kubernetes in **Docker Desktop** or Keda installed and running.
+* **Kubernetes**: Enabled kubernetes in **Docker Desktop** or Kind installed and running.
 * **Kubectl**: The Kubernetes command-line tool (kubectl) installed.
 * **Python** and Pip: Python 3.x and pip installed on your system.
 * **GitHub Personal Access Token**: With the required repo and workflow scopes.
@@ -35,10 +35,27 @@ docker build -t legit:latest .
     cd ..
     helm install [name] ./ -f ./values.yaml
    ```
+## 4. Verify Deployment
+```
+**Bash**
+kubectl get pods
+kubectl get services
+```
+## 5. Access the Web Interface:
+## Option 1 (LoadBalancer - if using Docker app for mac):
+ * Get LoadBalancer IP and Port:
+    ```
+    **Bash**
+    kubectl get svc [name]-repo-creator
+   ```
+ * Access the App: Open your web browser and go to: http://localhost:<PORT>/ (replace <PORT> with the actual port number).
 
-Deployment:
-Bash
-kubectl apply -f deployment.yaml
+## Option 2 (NodePort):
+    ```
+    **Bash**
+     Run kubectl get svc[name]-repo-creator to get the assigned NodePort.
+     Access the web interface at: http://localhost:<NodePort>/
+     ```
 חשוב להשתמש בקוד בזהירות.
 content_copy
 Service:
