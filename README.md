@@ -12,8 +12,8 @@
 ## 1. Clone the environment:
 ```
 **Bash**
-git clone [helm-idan-legit](https://github.com/idmishor/helm-idan-legit.git)
-cd <helm-idan-legit> 
+git clone https://github.com/idmishor/helm-idan-legit.git
+cd helm-idan-legit 
 ```
 content_copy
 2. Build the Docker Image:
