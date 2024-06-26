@@ -15,25 +15,30 @@
 git clone https://github.com/idmishor/helm-idan-legit.git
 cd helm-idan-legit 
 ```
-content_copy
-2. Build the Docker Image:
+## 2. Build the Docker Image:
 
-Create a Dockerfile: Use the provided Dockerfile (see previous responses) to define how to build your Docker image.
-Build the Image: Run the following command in the directory where your Dockerfile and app_k8s.py files are located:
-Bash
-docker build -t your-image-name:latest .
-חשוב להשתמש בקוד בזהירות.
-content_copy
-Replace your-image-name with the desired name for your image.
+```
+**Bash**
+cd Docker
+docker build -t legit:latest .
+# For the purpose of simplicity for this assigment we will work with local docker repository instead a remote dokcer repository
+```
 
-3. Deploy to Kubernetes:
-
-Create Kubernetes Resources:
-Secret (Optional): If you're using a Kubernetes Secret to store your GitHub token, create it:
-Bash
+## 3. Create Kubernetes Resources:
+ * Create kubernetes Secret to store your GitHub token:
+```
+**Bash**
 kubectl create secret generic github-token-secret --from-literal=token=<YOUR_GITHUB_TOKEN>
-חשוב להשתמש בקוד בזהירות.
-content_copy
+```
+
+ * Deploy the helm chart
+   
+    ```
+    **Bash**
+    cd ..
+    helm install [name] ./ -f ./values.yaml
+   ```
+
 Deployment:
 Bash
 kubectl apply -f deployment.yaml
