@@ -1,5 +1,5 @@
-# temp
-Prerequisites:
+# Home Assigment implementation Guide
+## Prerequisites:
 
 Docker: Installed and running on your system.
 Kubernetes: Enabled in Docker Desktop or Minikube installed and running.
