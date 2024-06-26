@@ -12,7 +12,7 @@
 ## Project stracture:
 ![image](https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9)
 
-<img src="(https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9)" width="200" height="200" />
+<img src=(https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9) width="200" height="200" />
 
 
 ## 1. Clone the environment:
