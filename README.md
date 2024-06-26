@@ -10,8 +10,9 @@
   * [Create Github token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 ## Project stracture:
-![image](https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9 =250x)
-<img src="[http://....jpg](https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9)" width="200" height="200" />
+![image](https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9)
+
+<img src="(https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9)" width="200" height="200" />
 
 
 ## 1. Clone the environment:
