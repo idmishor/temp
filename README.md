@@ -11,11 +11,10 @@
 
 ## 1. Clone the environment:
 ```
-Bash
-git clone [<helm-idan-legit>](https://github.com/idmishor/helm-idan-legit.git)
+**Bash**
+git clone [helm-idan-legit](https://github.com/idmishor/helm-idan-legit.git)
 cd <helm-idan-legit> 
 ```
-חשוב להשתמש בקוד בזהירות.
 content_copy
 2. Build the Docker Image:
 
