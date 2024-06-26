@@ -16,7 +16,9 @@
 
 ## 1. Clone the environment:
 ```
+
 **Bash**
+
 git clone https://github.com/idmishor/helm-idan-legit.git
 cd helm-idan-legit 
 ```
