@@ -16,7 +16,6 @@ git clone https://github.com/idmishor/helm-idan-legit.git
 cd helm-idan-legit 
 ```
 ## 2. Build the Docker Image:
-
 ```
 **Bash**
 cd Docker
@@ -26,13 +25,11 @@ docker build -t legit:latest .
 
 ## 3. Create Kubernetes Resources:
  * Create kubernetes Secret to store your GitHub token:
-```
-**Bash**
-kubectl create secret generic github-token-secret --from-literal=token=<YOUR_GITHUB_TOKEN>
-```
-
+    ```
+    **Bash**
+    kubectl create secret generic github-token-secret --from-literal=token=<YOUR_GITHUB_TOKEN>
+    ```
  * Deploy the helm chart
-   
     ```
     **Bash**
     cd ..
