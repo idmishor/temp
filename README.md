@@ -7,7 +7,7 @@
 * **Kubectl**: The Kubernetes command-line tool (kubectl) installed.
 * **Python** and Pip: Python 3.x and pip installed on your system.
 * **GitHub Personal Access Token**: With the required repo and workflow scopes.
-  * [Create Github token] (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+  * [Create Github token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 1. Prepare the Code and Environment:
 
