@@ -8,11 +8,11 @@
 * **Python** and Pip: Python 3.x and pip installed on your system.
 * **GitHub Personal Access Token**: With the required repo and workflow scopes.
   [Create Github token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+  ![image](https://github.com/idmishor/temp/assets/173612976/a8875e2c-e594-4a62-8c6a-ad64fafb32be)
+
 
 ## Project stracture:
-<img src="https://github.com/idmishor/temp/assets/173612976/50fffe36-5813-489b-aa8a-e041e439d5c9" width="250" height="250">
-
-
+<img src="https://github.com/idmishor/temp/assets/173612976/a8875e2c-e594-4a62-8c6a-ad64fafb32be" width="250" height="250">
 
 ## 1. Clone the environment:
 ```
