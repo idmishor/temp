@@ -1,11 +1,12 @@
 # Home Assigment implementation Guide
 ## Prerequisites:
 
-Docker: Installed and running on your system.
-Kubernetes: Enabled in Docker Desktop or Minikube installed and running.
-Kubectl: The Kubernetes command-line tool (kubectl) installed.
-Python and Pip: Python 3.x and pip installed on your system.
-GitHub Personal Access Token: With the required repo and workflow scopes.
+* **Docker**: Installed and running on your system.
+* **Kubernetes**: Enabled in Docker Desktop or Minikube installed and running.
+* **Kubectl**: The Kubernetes command-line tool (kubectl) installed.
+* **Python** and Pip: Python 3.x and pip installed on your system.
+* **GitHub Personal Access Token**: With the required repo and workflow scopes.
+* **Helm**: 
 1. Prepare the Code and Environment:
 
 Create Files:
