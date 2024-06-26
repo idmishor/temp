@@ -2,7 +2,7 @@
 ## Prerequisites:
 
 * **Docker**: Installed and running on your comuter.
-* * **Helm**: Installed and working on your computer.
+* **Helm**: Installed and working on your computer.
 * **Kubernetes**: Enabled kubernetes in **Docker Desktop** or Kind installed and running.
 * **Kubectl**: The Kubernetes command-line tool (kubectl) installed.
 * **Python** and Pip: Python 3.x and pip installed on your system.
