@@ -9,21 +9,12 @@
 * **GitHub Personal Access Token**: With the required repo and workflow scopes.
   * [Create Github token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
-1. Prepare the Code and Environment:
-
-Create Files:
-Save the Flask app code as app_k8s.py.
-Save the HTML template as index.html in a templates folder within the same directory as app_k8s.py.
-Create a requirements.txt file:
-Flask
-PyGithub
-prometheus_client
-Werkzeug
-Flask-Cors
-gunicorn
-Install Python Libraries:
+## 1. Clone the environment:
+```
 Bash
-pip install -r requirements.txt
+git clone [<helm-idan-legit>](https://github.com/idmishor/helm-idan-legit.git)
+cd <helm-idan-legit> 
+```
 חשוב להשתמש בקוד בזהירות.
 content_copy
 2. Build the Docker Image:
